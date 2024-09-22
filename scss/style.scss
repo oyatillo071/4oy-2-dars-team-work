@@ -11,7 +11,7 @@
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1192px;
   width: 100%;
   margin: 0 auto;
   padding-inline: 15px;
@@ -27,4 +27,37 @@ li {
 
 body {
   font-family: $main-font-family;
+}
+
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.about__info {
+  max-width: 50%;
+}
+
+.about__info--title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.41;
+  text-align: left;
+  color: $main-dark-color;
+  margin-top: 80px;
+  position: relative;
+  &::before {
+    content: 'Our Film';
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: left;
+    color: $main-purplel;
+    top: -40px;
+    
+  }
 }
