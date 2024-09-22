@@ -1,22 +1,8 @@
-<svg width="172" height="172" viewBox="0 0 172 172" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_2_338)">
-<path d="M122 76C122 56.1178 105.882 40 86 40C66.1177 40 50 56.1178 50 76V112H86C105.882 112 122 95.8823 122 76Z" fill="#3029D9"/>
-</g>
-<path d="M79.6965 76.628V84.118" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M83.5181 80.3734H75.8758" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M92.7322 76.8561H92.5182" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M96.3592 84.0052H96.1452" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path opacity="0.4" d="M78.1443 56C78.1443 57.481 79.3693 58.6815 80.8804 58.6815H82.9933C85.3246 58.6898 87.2129 60.5405 87.2235 62.8253V64.1754" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M94.8566 95.9252C88.8462 96.027 82.9461 96.0229 77.1455 95.9252C70.707 95.9252 66 91.3328 66 85.0226V75.7234C66 69.4132 70.707 64.8208 77.1455 64.8208C82.9779 64.7211 88.8823 64.7232 94.8566 64.8208C101.295 64.8208 106 69.4153 106 75.7234V85.0226C106 91.3328 101.295 95.9252 94.8566 95.9252Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<defs>
-<filter id="filter0_d_2_338" x="0" y="0" width="172" height="172" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="10"/>
-<feGaussianBlur stdDeviation="25"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.188235 0 0 0 0 0.160784 0 0 0 0 0.85098 0 0 0 0.3 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_338"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_338" result="shape"/>
-</filter>
-</defs>
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.6965 22.628V30.118" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.5181 26.3734H11.8758" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.7322 22.8561H28.5182" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.3592 30.0052H32.1452" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path opacity="0.4" d="M14.1443 2C14.1443 3.48097 15.3693 4.68152 16.8804 4.68152H18.9933C21.3246 4.68983 23.2129 6.54052 23.2235 8.82532V10.1754" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M30.8566 41.9252C24.8462 42.027 18.9461 42.0229 13.1455 41.9252C6.707 41.9252 2 37.3328 2 31.0226V21.7234C2 15.4132 6.707 10.8208 13.1455 10.8208C18.9779 10.7211 24.8823 10.7232 30.8566 10.8208C37.2951 10.8208 42 15.4153 42 21.7234V31.0226C42 37.3328 37.2951 41.9252 30.8566 41.9252Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
