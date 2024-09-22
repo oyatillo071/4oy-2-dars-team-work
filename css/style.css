@@ -1,1 +1,55 @@
-@import"../style/font.css";@import"../style/normalize.css";.manu__container{padding-top:64px;padding-bottom:64px}*{margin:0;padding:0;box-sizing:border-box}.container{max-width:1300px;width:100%;margin:0 auto;padding-inline:15px}a{text-decoration:none}li{list-style:none}body{font-family:"Poppins",sans-serif}.card{background:radial-gradient(50% 50% at 50% 50%, #5975ff 0%, #3029d9 100%)}/*# sourceMappingURL=style.css.map */
+@import "../style/font.css";
+@import "../style/normalize.css";
+.manu__container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1192px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header-hero {
+  background: radial-gradient(50% 50% at 50% 50%, #5975ff 0%, #3029d9 100%);
+  padding-block: 40px;
+}
+
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hero-right {
+  max-width: 40%;
+  width: 100%;
+  padding-top: 60px;
+}
