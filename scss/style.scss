@@ -2,7 +2,6 @@
 @import "../style/font.css";
 @import "../style/normalize.css";
 @import "./menu";
-@import "./loader";
 
 * {
   margin: 0;
@@ -28,3 +27,8 @@ li {
 body {
   font-family: $main-font-family;
 }
+.card {
+  background: radial-gradient(50% 50% at 50% 50%, #5975ff 0%, #3029d9 100%);
+}
+
+
