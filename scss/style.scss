@@ -10,7 +10,7 @@
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1192px;
   width: 100%;
   margin: 0 auto;
   padding-inline: 15px;
@@ -360,5 +360,413 @@ body {
 @media (max-width: 375px) {
   .support {
     display: none;
+  }
+}
+=======
+.header-hero {
+    background: radial-gradient(50% 50% at 50% 50%, #5975ff 0%, #3029d9 100%);
+    padding-block: 40px;
+ 
+}
+
+.hero__container{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.hero-right{
+  max-width: 40%;
+  width: 100%;
+  padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.about__container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.about__info {
+  max-width: 53%;
+}
+
+.about__info--title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.41;
+  text-align: left;
+  color: $main-dark-color;
+  margin-top: 90px;
+  position: relative;
+
+  &::before {
+    content: 'Our Film';
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: left;
+    color: $main-purple;
+    top: -60px;
+
+  }
+}
+
+.about__info--disc {
+  max-width: 80%;
+  font-size: $main-disc-size;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: $main-gray-color;
+  margin-block: 28px;
+}
+
+.read-btn {
+  background-color: $main-purple;
+  font-size: $main-disc-size;
+  padding: 10px 19px 8px 18px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  margin-top: 28px;
+
+}
+
+
+
+.about__card {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  top: 32%;
+  gap: 28px;
+
+
+  .about__card--served,
+  .about__card--rating,
+  .about__card--project,
+  .about__card--exp {
+    background-color: rgba(48, 41, 217, 20%);
+    padding: 27px 57px 27px 57px;
+
+    border-radius: 400px 400px 0px 400px;
+    margin-bottom: 28px;
+  }
+
+  .about__card--served,
+  .about__card--rating {
+
+    border-radius: 400px 0px 400px 400px;
+    margin-bottom: 28px;
+    margin-top: 40px;
+
+  }
+
+  .about__card--number {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    color: $main-purple;
+  }
+
+  .about__info--text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(48, 41, 217, 1);
+  }
+
+
+}
+
+.video__png {
+  display: none;
+}
+
+.service__main--title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 68px;
+  text-align: center;
+  color: rgba(11, 17, 49, 1);
+  position: relative;
+  margin-top: 100px;
+
+  &::before {
+    content: 'Our Services';
+    position: absolute;
+    top: -60px;
+    right: auto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: left;
+    color: rgba(48, 41, 217, 1);
+  }
+}
+
+
+.services__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  gap: 30px;
+}
+
+.services__card {
+  width: 367px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 66px;
+  padding-bottom: 55px;
+  padding-inline: 40px;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 10px 100px 10px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  background-image: url(../images/wallet-bac-img.png);
+  background-position: -110px -98px;
+
+  .service--number {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: $main-gray-color;
+  }
+
+  .service--title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    color: $main-dark-color;
+  }
+
+  .service--disc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(11, 17, 49, 1);
+  }
+
+}
+
+
+
+.services__card--blue {
+  background-color: rgba(48, 41, 217, 1);
+  background-image: url(../images/Backpack-bac-img.png);
+  background-position: -110px -98px;
+
+  .service--disc,
+  .service--title {
+    color: #FFF;
+  }
+}
+
+.services__card--purple {
+  background-image: url(../images/report-bac-img.png);
+  background-color: rgba(17, 24, 73, 1);
+  background-position: -110px -70px;
+
+  .service--disc,
+  .service--title {
+    color: #FFF;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1120px) {
+  .about__card {
+    flex-direction: column;
+    top: 10px;
+    right: 10%;
+  }
+
+  .about__info {
+    max-width: 65%;
+  }
+
+  .about__container {
+    flex-direction: column;
+  }
+
+  .about__card {
+    flex-direction: row;
+    position: static;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about__info {
+    max-width: 90%;
+  }
+}
+
+
+@media screen and (max-width:800px) {
+  .service__main--title {
+    font-size: 38px;
+
+    &::before {
+      font-size: 22px;
+    }
+  }
+}
+
+
+@media screen and (max-width:700px) {
+  .about__info--title {
+    font-size: 38px;
+  }
+
+  .about__info--disc {
+    font-size: 12px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+  .header-hero{
+    height: 1040px;
+    position: relative;
+  }
+  .about__info {
+    justify-content: center;
+    margin-top: 150px;
+    max-width: 80%;
+  }
+
+  .about__card {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: -400px;
+    padding-inline: auto;
+    gap: 0;
+
+
+    .about__card--project,
+    .about__card--exp,
+    .about__card--rating{
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.1);
+      background-image: url(../images/card-mobile.svg);
+      background-repeat: no-repeat;
+      background-position: 1% 5%;
+      padding-left: 50%;
+      align-items: center;
+      padding: 40px 80px 40px 163px;
+      justify-content: center;
+      margin: 0;
+      margin-block: 10px;
+    }
+
+    .about__card--served {
+      display: none;
+    }
+
+  }
+
+  .about__container,
+  .about__info {
+    padding-top: 40px;
+    max-width: 100%;
+  }
+
+  .video__png {
+    display: block;
+    width: 100%;
+  }
+
+  .about__card {
+    padding-left: 10%;
+  }
+
+  .about__info--title {
+    font-size: 22px;
+    text-align: center;
+    margin-inline:auto;
+
+    span {
+      display: none;
+    }
+
+    &::before {
+      font-size: 14px;
+      left: 45%;
+    }
+  }
+
+  .read-btn {
+    font-size: 10px;
+  }
+
+  .services__container {
+    padding-block: 20px;
+    margin-top: 40px;
+    background-color: $main-purple;
+  }
+
+  .service__main--title {
+    font-size: 22px;
+    text-align: center;
+    color: #FFF;
+
+    &::before {
+      font-size: 16px;
+      text-align: center;
+      color: rgba(89, 117, 255, 1);
+    }
+  }
+
+  .services__card--blue,
+  .services__card--purple {
+    display: none;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .about__card {
+
+    .about__card--project,
+    .about__card--exp,
+    .about__card--rating,
+    .about__card--served {
+      box-shadow: none;
+    }
   }
 }
