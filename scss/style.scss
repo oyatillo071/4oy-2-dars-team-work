@@ -805,6 +805,7 @@ body.dark-mode {
   cursor: pointer;
   background-color: #ccc;
   font-size: 16px;
+  margin-bottom: 40px;
 }
 
 .content {
@@ -851,7 +852,7 @@ body.dark-mode {
   align-items: center;
   flex-direction: column;
   a {
-    font-family: "Poppins";
+
     font-size: 24px;
     font-weight: 600;
     line-height: 68px;
@@ -861,7 +862,7 @@ body.dark-mode {
     color: $bright-blue;
   }
   h4 {
-    font-family: "Poppins";
+
     font-size: 48px;
     font-weight: 700;
     line-height: 68px;
@@ -874,7 +875,7 @@ body.dark-mode {
 
 .successful {
   h6 {
-    font-family: "Poppins";
+
     font-size: 14px;
     font-weight: 600;
     line-height: 28px;
@@ -885,7 +886,7 @@ body.dark-mode {
   }
 
   h3 {
-    font-family: "Poppins";
+
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
@@ -899,7 +900,7 @@ body.dark-mode {
   }
 
   p {
-    font-family: "Poppins";
+
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
@@ -918,7 +919,7 @@ body.dark-mode {
     border-radius: 4px;
     background-color: $bright-blue;
 
-    font-family: "Poppins";
+
     font-size: 14px;
     font-weight: 600;
     line-height: 21px;
@@ -958,7 +959,7 @@ body.dark-mode {
     flex-direction: column;
     margin-bottom: 26px;
     a {
-      font-family: "Poppins";
+  
       font-size: 16px;
       font-weight: 600;
       line-height: 24px;
@@ -967,7 +968,7 @@ body.dark-mode {
     }
 
     h3 {
-      font-family: "Poppins";
+  
       font-size: 22px;
       font-weight: 700;
       line-height: 28px;
@@ -986,7 +987,7 @@ body.dark-mode {
   gap: 10px;
 
   p {
-    font-family: "Poppins";
+
     font-size: 12px;
     font-weight: 600;
     line-height: 24px;
@@ -997,7 +998,7 @@ body.dark-mode {
   }
 
   h6 {
-    font-family: "Poppins";
+
     font-size: 14px;
     font-weight: 600;
     line-height: 34px;
@@ -1008,7 +1009,7 @@ body.dark-mode {
   }
 
   a {
-    font-family: "Poppins";
+
     font-size: 12px;
     font-weight: 400;
     line-height: 34px;
@@ -1027,12 +1028,13 @@ body.dark-mode {
 
 .pre-footer {
   background: #111849;
+  padding-block: 100px;
 
   .pre-footer__container {
     background-image: url("../images/pre-footer-bac-img.png");
     background-position: center;
-    width: 1190px;
-    height: 630px;
+    max-width: 100%;
+    width: 100%;
 
     display: flex;
     align-items: center;
@@ -1040,7 +1042,7 @@ body.dark-mode {
     flex-direction: column;
 
     h6 {
-      font-family: "Poppins";
+  
       font-size: 24px;
       font-weight: 600;
       line-height: 68px;
@@ -1051,7 +1053,7 @@ body.dark-mode {
     }
 
     h2 {
-      font-family: "Poppins";
+  
       font-size: 48px;
       font-weight: 700;
       line-height: 68px;
@@ -1071,7 +1073,7 @@ body.dark-mode {
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: "Poppins";
+  
       font-size: 14px;
       font-weight: 600;
       line-height: 21px;
@@ -1099,7 +1101,7 @@ body.dark-mode {
       gap: 35px;
 
       a {
-        font-family: "Poppins";
+    
         font-size: 12px;
         font-weight: 400;
         line-height: 24px;
@@ -1125,7 +1127,7 @@ body.dark-mode {
   gap: 22px;
 
   a {
-    font-family: "Poppins";
+
     font-size: 14px;
     font-weight: 600;
     line-height: 21px;
@@ -1148,7 +1150,7 @@ body.dark-mode {
     a {
       width: 91px;
       height: 21px;
-      font-family: "Poppins";
+  
       font-size: 14px;
       font-weight: 600;
       line-height: 21px;
@@ -1167,7 +1169,7 @@ body.dark-mode {
     a {
       width: 91px;
       height: 21px;
-      font-family: "Poppins";
+  
       font-size: 14px;
       font-weight: 600;
       line-height: 21px;
@@ -1191,7 +1193,7 @@ body.dark-mode {
 
 .footer-bottom {
   a {
-    font-family: "Poppins";
+
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
@@ -1243,7 +1245,7 @@ body.dark-mode {
       flex-direction: column;
 
       h6 {
-        font-family: "Poppins";
+    
         font-size: 20px;
         font-weight: 600;
         line-height: 68px;
@@ -1254,7 +1256,7 @@ body.dark-mode {
       }
 
       h2 {
-        font-family: "Poppins";
+    
         font-size: 40px;
         font-weight: 700;
         line-height: 68px;
@@ -1274,7 +1276,7 @@ body.dark-mode {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: "Poppins";
+    
         font-size: 12px;
         font-weight: 600;
         line-height: 21px;
@@ -1307,7 +1309,7 @@ body.dark-mode {
         gap: 30px;
 
         a {
-          font-family: "Poppins";
+      
           font-size: 12px;
           font-weight: 400;
           line-height: 24px;
@@ -1333,7 +1335,7 @@ body.dark-mode {
     gap: 22px;
 
     a {
-      font-family: "Poppins";
+  
       font-size: 14px;
       font-weight: 600;
       line-height: 21px;
@@ -1355,7 +1357,7 @@ body.dark-mode {
       a {
         width: 91px;
         height: 21px;
-        font-family: "Poppins";
+    
         font-size: 14px;
         font-weight: 600;
         line-height: 21px;
@@ -1374,7 +1376,7 @@ body.dark-mode {
       a {
         width: 91px;
         height: 21px;
-        font-family: "Poppins";
+    
         font-size: 14px;
         font-weight: 600;
         line-height: 21px;
@@ -1399,7 +1401,7 @@ body.dark-mode {
 
   .footer-bottom {
     a {
-      font-family: "Poppins";
+  
       font-size: 12px;
       font-weight: 400;
       line-height: 24px;
@@ -1417,11 +1419,9 @@ body.dark-mode {
 @media screen and (max-width: 768px) {
   .pre-footer {
     background: #111849;
-
     .pre-footer__container {
       background-image: none;
-      width: 750px;
-      height: 350px;
+    
 
       display: flex;
       align-items: center;
@@ -1429,7 +1429,7 @@ body.dark-mode {
       flex-direction: column;
 
       h6 {
-        font-family: "Poppins";
+    
         font-size: 14px;
         font-weight: 600;
         line-height: 8px;
@@ -1440,7 +1440,7 @@ body.dark-mode {
       }
 
       h2 {
-        font-family: "Poppins";
+    
         font-size: 32px;
         font-weight: 700;
         line-height: 38px;
@@ -1460,7 +1460,7 @@ body.dark-mode {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: "Poppins";
+    
         font-size: 12px;
         font-weight: 600;
         line-height: 21px;
@@ -1470,8 +1470,29 @@ body.dark-mode {
     }
   }
 }
-
-@media screen and (max-width: 426px) {
+@media screen and (max-width:576px) {
+  .successful{
+    .successful-bottom-tittle-button{
+      color: #3029d9;
+      background-color: #ffffff;
+    }
+  }
+  .services-top{
+    a,h4{
+      color: #fff;
+    }
+  }
+    .successful-bottom-tittle{
+      h6,
+      h3,
+      p{
+        color:#fff;
+      }
+      
+    }
+ 
+}
+ @media screen and (max-width: 426px) {
   .services__container {
     .services-bottom{
     .successful-2 {
